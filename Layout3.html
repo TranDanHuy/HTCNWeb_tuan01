@@ -1,0 +1,68 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAYOUT 3</title>
+    <style>
+        .wrapper{
+            width: 100%;
+            height: 100vh;
+            border: 1px solid ;
+            font-weight: bold;
+            background-color: rgb(255, 229, 196);
+        }
+        .header{
+            height: 10%;
+            border-bottom: 1px solid ;
+        }
+        .main{
+            height: 80%;
+        }
+        .menu{
+            height: 10%;
+            border-bottom:1px solid ;
+        }
+        .nav{
+            height: 90%;
+            width: 15%;
+            float: left;
+            border-right: 1px solid;
+        }
+        .center{
+            height: 90%;
+            width: 70%;
+            float: left;
+    
+        }
+        .section{
+            height: 90%;
+            width: 15%;
+            float: left;
+            border-left: 1px solid;
+        }
+        .footer{
+            height: 10%;
+            border-top: 1px solid ;
+        }
+        .nav , .center, .section{
+            box-sizing: border-box;
+        }
+        .header , .menu,.footer{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">header</div>
+        <div class="main">
+            <div class="menu">menu</div>
+            <div class="nav">nav</div>
+            <div class="center">center</div>
+            <div class="section">section</div>
+        </div>
+        <div class="footer">footer</div>
+    </div>
+    
+</body>
+</html>
